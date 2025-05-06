@@ -1,2 +1,26 @@
 INPUT AND OUTPUT:-
-
+day 2 :-
+//Static block and Constructor:-
+* For every class there will be a constructor
+* Constructor are used to initialize the object,for every class there will  be a default constructor whenever we create object constructor will be called then object will be created.
+* Constructor having class properties and method properties.
+//EXAMPLE:-
+Static Block:
+             public class q2{
+               public static void main(string[]args){
+                    Demo d1 = new Demo();
+                    Demo d2 = new Demo();
+                 }
+}
+class Demo{
+   static{
+        system.out.println("Static Block");
+    }
+  Demo() {
+      System.out.println("Construction");
+   }
+***************************************************
+//Static block :-
+*Static block will be ceated with the static keyword it will call automatically no need to call with either object or class
+//Static Method:-
+*For static method no need to call with object we can directly call with  class name and here static will add class instance or objects 
